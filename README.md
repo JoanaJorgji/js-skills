@@ -28,3 +28,7 @@ You can assume:
 3. The component must allow for the caller to pass in the following listeners:
     1. `directorySelected(path)` - must fire when the user clicks on a directory, `path` must be the absolute path of the directory
     2. `fileSelected(file)` - must fire when the user clicks on a file, `file` must be the file object (from input) the user selected
+    
+    
+# Submission
+Please fork this repo and submit a pull request to notify me of the branch you're working on (no PRs will be accepted and merged for obvious reasons) 
