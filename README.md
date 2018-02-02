@@ -26,5 +26,5 @@ You can assume:
 1. The code must *not* have any external dependencies 
 2. The component should be able to operate smoothly with large lists of files, e.g. 50K and large hierarchy depth, 50+ directories deep.
 3. The component must allow for the caller to pass in the following listeners:
-  1. directorySelected(path) - must fire when the user clicks on a directory, `path` must be the absolute path of the directory
-  2. fileSelected(file) - must fire when the user clicks on a file, `file` must be the file object (from input) the user selected
+    1. `directorySelected(path)` - must fire when the user clicks on a directory, `path` must be the absolute path of the directory
+    2. `fileSelected(file)` - must fire when the user clicks on a file, `file` must be the file object (from input) the user selected
